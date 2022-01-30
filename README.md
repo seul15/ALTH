@@ -23,3 +23,39 @@
 - 코딩 테스트를 위한 자료 구조와 알고리즘 with C++
 - 언어 : C++
 
+## 💕 How to initiate and collaborate?
+
+0. 해당 저장소를 fork하여 자신의 깃허브의 Repository로 가져간다. 
+
+1. Visual Studio에서 빈 프로젝트를 하나 판 뒤, 터미널 창에서 (Ctrl + ` )
+
+> cd [프로젝트 이름] 
+
+소스파일은 제일 루트 디렉터리가 아닌 한 디렉터리 더 들어가서 저장되기 때문에 폴더 안에 들어가줘야 함.
+
+> git remote add origin https://github.com/seul15/ALTH.git
+> git remote add upstream https://github.com/MingyeomKim/ALTH.git
+
+이렇게 두 개의 저장소를 현재 프로젝트에 위치 시킨다. 
+
+> git remote -v
+
+이 명령어를 통해 저장소를 확인할 것
+
+
+2. 브랜치 생성하기
+
+> git branch MingyeomKim
+
+
+3. 소스 코드 생성 후 원격 저장소에 Push할 경우
+> git add .
+> git commit -m "[김민겸] 1931 회의실 배정"
+> git push origin MingyeomKim
+
+
+4. Pull Request 만들기
+
+위의 과정까지 완료하면 MingyeomKim/ALTH에 자동으로 PullRequest가 올라간다. 
+다른 팀원이 Pull Request 확인 후 Comment 달 수 있음. 더 좋은 코드를 고민할 기회를 만들어주자!
+모든 팀원이 해당 Pull Request에 Approve를 누르면 MingyeomKim/ALTH 의 MingyeomKim 브랜치에 Merge 가능
