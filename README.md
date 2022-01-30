@@ -26,7 +26,7 @@
 
 ## 💕 How to initiate and collaborate?
 
-**0. 해당 저장소를 fork하여 자신의 깃허브의 Repository로 가져간다. **
+**0. 해당 저장소를 fork하여 자신의 깃허브의 Repository로 가져간다.**
 
 **1. Visual Studio에서 빈 프로젝트를 하나 판 뒤, 터미널 창에서 (Ctrl + ` )**
 
